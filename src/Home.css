@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color:gainsboro;
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    background-color: honeydew;
+}
