@@ -10,7 +10,7 @@ import {LinkContainer} from 'react-router-bootstrap'
 export default class Menu extends Component {
   render() {
     return (
-        <Navbar expand="md" style={{ fontFamily: "Open Sans", fontSize: '21px', background: '#ef9273', color: '#0d0d0d'}}>
+        <Navbar expand="md" style={{ position: "sticky", top: 0, borderBottom: "1px solid black", fontFamily: "Open Sans", fontSize: '21px', background: '#ef9273', color: '#0d0d0d'}}>
         <Container style={{ margin: '0.3rem'}}>
             <LinkContainer to='/Home' style={{ fontSize: '30px' }}>
                 <Navbar.Brand>HCI Report</Navbar.Brand>
